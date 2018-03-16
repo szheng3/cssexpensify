@@ -8,14 +8,14 @@ export const Header = ({startLogout}) => (
         <div className="container">
             <div className='header__content'>
 
-                <NavLink to="/dashboard" className="header__title">
+                <NavLink to="/dashboard" className="header__h1">
                     <h1>Expensify</h1>
                 </NavLink>
 
 
                 <div>
                     <NavLink to="/dashboard" className="header__title" activeClassName="is-active">Dashboard</NavLink>
-                    <NavLink to="/create" className="header__title" activeClassName="is-active">Create Expense</NavLink>
+                    {/*<NavLink to="/create" className="header__title" activeClassName="is-active">Create Expense</NavLink>*/}
                     <button onClick={startLogout} className='box-button'>Logout</button>
                 </div>
             </div>
