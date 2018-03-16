@@ -1,0 +1,16 @@
+.expenseList {
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.expenseSummary {
+  font-weight: normal;
+
+  span {
+    font-weight: bold;
+  }
+}
