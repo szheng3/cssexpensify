@@ -5,6 +5,17 @@
   justify-content: space-between;
   align-items: center;
 
+  input {
+
+    height: 5rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+
+  select {
+    @extend input;
+
+  }
 }
 
 .expenseSummary {
