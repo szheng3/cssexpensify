@@ -57,6 +57,14 @@
     @extend input
   }
 
+  .DateRangePicker {
+    width: 100%;
+    .DateRangePickerInput {
+      width: 100%;
+
+    }
+  }
+
 }
 
 .expenseSummary {
