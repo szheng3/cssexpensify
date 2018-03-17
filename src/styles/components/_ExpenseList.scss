@@ -53,8 +53,8 @@
 
   }
 
-  button {
-    @extend input;
+  .inside-button {
+    @extend input
   }
 
 }
