@@ -2,23 +2,36 @@
 
   display: flex;
 
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 
   input {
+    width: 100%;
 
+    border: blue 0.1rem solid;
+
+    margin: 0 0 $s-size 0;
     height: 5rem;
     font-size: 1.8rem;
     font-weight: 200;
   }
 
   select {
+
     @extend input;
 
   }
+
+  .dateStyle {
+
+    @extend input;
+
+  }
+
 }
 
 .expenseSummary {
+
   font-weight: normal;
 
   span {
