@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import { SingleDatePicker } from 'react-dates';
+import {SingleDatePicker} from 'react-dates';
 
 export default class ExpenseForm extends React.Component {
   constructor(props) {
@@ -57,7 +57,7 @@ export default class ExpenseForm extends React.Component {
     return (
       <div>
         {this.state.error && <p>{this.state.error}</p>}
-        <form onSubmit={this.onSubmit}>
+          <form onSubmit={this.onSubmit} className="expenseList">
           <input
             type="text"
             placeholder="Description"
