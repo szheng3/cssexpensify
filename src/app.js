@@ -8,6 +8,9 @@ import {login, logout} from './actions/auth';
 import 'normalize.css/normalize.css';
 import 'react-dates/lib/css/_datepicker.css';
 import {firebase} from './firebase/firebase';
+// import 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 import './styles/styles.scss';
 
 const store = configureStore();
